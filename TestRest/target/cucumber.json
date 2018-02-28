@@ -1,0 +1,1524 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 3789967484,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 10613046,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"A House in Bali\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A House in Bali",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 191457,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 312253,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"15.39D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "15.39D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1625964046,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 10334482077,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 398639983,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"A House in Bali\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "A House in Bali",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 101057,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 17,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 243170,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"Keyboard\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Keyboard",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 165798,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 214748,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"18.49D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "18.49D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2909755,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 308030979,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 323974036,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"Keyboard\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Keyboard",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 174088,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9705499,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"Mouse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mouse",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 198168,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 195010,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"21.59D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "21.59D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1878255,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 186603679,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 201494708,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"Mouse\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Mouse",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 93952,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 19,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 168956,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"17Monitor\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "17Monitor",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 271198,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 578714,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"35.69D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "35.69D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3171873,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 224142716,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 178142060,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"17Monitor\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "17Monitor",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 131059,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 20,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;6",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 185930,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"Hammer\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hammer",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157902,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Hardware\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hardware",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 198563,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"40.79D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "40.79D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1652453,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 145348399,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 246826251,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"Hammer\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hammer",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 97505,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;7",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 158298,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"Screwdriver\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Screwdriver",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 173694,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Hardware\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Hardware",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200142,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"51.89D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "51.89D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1853779,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 191917900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 154348467,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"Screwdriver\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Screwdriver",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 136981,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 22,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;8",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 528580,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"English Dictionary\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "English Dictionary",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 160666,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 173693,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"19.99D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "19.99D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1665086,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 162683369,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 166372770,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"English Dictionary\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "English Dictionary",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 91584,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 23,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;9",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 211984,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"An Alaskan Odysse\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An Alaskan Odysse",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 157508,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Books\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Books",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227380,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"07.39D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "07.39D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1315726,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 200454129,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222499342,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"An Alaskan Odysse\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "An Alaskan Odysse",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 93952,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 24,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;10",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 165404,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"LCD Projector\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LCD Projector",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 161061,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2085502,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"25.29D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "25.29D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1819831,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 188875506,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 222996736,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"LCD Projector\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "LCD Projector",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "line": 3,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 434233,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "The add product service is up and running",
+            "match": {
+              "location": "Steps.i_am_coonected_to_API()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 25,
+        "name": "Add a new product",
+        "description": "",
+        "id": "add-new-product-feature;add-a-new-product;;11",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 163824,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I enter product name as \"Smart Thermostat\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Smart Thermostat",
+                  "offset": 25
+                }
+              ],
+              "location": "Steps.i_enter_product_name_as(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 151192,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I enter category as \"Electronics\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Electronics",
+                  "offset": 21
+                }
+              ],
+              "location": "Steps.i_enter_category_as(String)"
+            },
+            "matchedColumns": [
+              1
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 227775,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I enter price as \"82.69D\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "82.69D",
+                  "offset": 18
+                }
+              ],
+              "location": "Steps.i_enter_price_as(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2164454,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I send a request to add new product",
+            "match": {
+              "location": "Steps.i_send_post_request()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 225273301,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I verify the response status as \"SUCCESS\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "SUCCESS",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.i_verify_the_status_as_in_step(String)"
+            },
+            "matchedColumns": [
+              3
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 153112088,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I verify the newly added product \"Smart Thermostat\" using search service",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Smart Thermostat",
+                  "offset": 34
+                }
+              ],
+              "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Add new product feature",
+    "description": "",
+    "id": "add-new-product-feature",
+    "keyword": "Feature",
+    "uri": "AddNewProduct.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Clean product",
+        "description": "",
+        "id": "clean-products;clean-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 280922611,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "I clean the data",
+            "match": {
+              "location": "Steps.i_clean_the_data()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      }
+    ],
+    "name": "Clean products",
+    "description": "",
+    "id": "clean-products",
+    "keyword": "Feature",
+    "uri": "CleanProduct.feature"
+  }
+]
