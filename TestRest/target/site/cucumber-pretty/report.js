@@ -163,6 +163,10 @@ formatter.examples({
   ],
   "keyword": "Examples"
 });
+formatter.before({
+  "duration": 1514404492,
+  "status": "passed"
+});
 formatter.background({
   "line": 3,
   "name": "",
@@ -176,10 +180,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 3789967484,
+  "duration": 497683763,
   "status": "passed"
 });
 formatter.scenario({
@@ -245,7 +249,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 10613046,
+  "duration": 12698548,
   "status": "passed"
 });
 formatter.match({
@@ -258,7 +262,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 191457,
+  "duration": 155534,
   "status": "passed"
 });
 formatter.match({
@@ -271,14 +275,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 312253,
+  "duration": 324490,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1625964046,
+  "duration": 721229210,
   "status": "passed"
 });
 formatter.match({
@@ -291,7 +295,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 10334482077,
+  "duration": 8743104284,
   "status": "passed"
 });
 formatter.match({
@@ -304,7 +308,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 398639983,
+  "duration": 317526862,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 78951,
   "status": "passed"
 });
 formatter.background({
@@ -320,10 +328,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 101057,
+  "duration": 92373,
   "status": "passed"
 });
 formatter.scenario({
@@ -389,7 +397,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 243170,
+  "duration": 223038,
   "status": "passed"
 });
 formatter.match({
@@ -402,7 +410,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 165798,
+  "duration": 166983,
   "status": "passed"
 });
 formatter.match({
@@ -415,14 +423,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 214748,
+  "duration": 208827,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 2909755,
+  "duration": 1915362,
   "status": "passed"
 });
 formatter.match({
@@ -435,7 +443,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 308030979,
+  "duration": 244390205,
   "status": "passed"
 });
 formatter.match({
@@ -448,7 +456,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 323974036,
+  "duration": 192929663,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 76582,
   "status": "passed"
 });
 formatter.background({
@@ -464,10 +476,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 174088,
+  "duration": 131060,
   "status": "passed"
 });
 formatter.scenario({
@@ -533,7 +545,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 9705499,
+  "duration": 163035,
   "status": "passed"
 });
 formatter.match({
@@ -546,7 +558,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 198168,
+  "duration": 151981,
   "status": "passed"
 });
 formatter.match({
@@ -559,14 +571,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 195010,
+  "duration": 183168,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1878255,
+  "duration": 1937863,
   "status": "passed"
 });
 formatter.match({
@@ -579,7 +591,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 186603679,
+  "duration": 213451113,
   "status": "passed"
 });
 formatter.match({
@@ -592,7 +604,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 201494708,
+  "duration": 247929992,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 51319,
   "status": "passed"
 });
 formatter.background({
@@ -608,10 +624,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 93952,
+  "duration": 91979,
   "status": "passed"
 });
 formatter.scenario({
@@ -677,7 +693,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 168956,
+  "duration": 128691,
   "status": "passed"
 });
 formatter.match({
@@ -690,7 +706,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 271198,
+  "duration": 160666,
   "status": "passed"
 });
 formatter.match({
@@ -703,14 +719,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 578714,
+  "duration": 248697,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 3171873,
+  "duration": 2029052,
   "status": "passed"
 });
 formatter.match({
@@ -723,7 +739,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 224142716,
+  "duration": 241639537,
   "status": "passed"
 });
 formatter.match({
@@ -736,7 +752,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 178142060,
+  "duration": 188084413,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 71846,
   "status": "passed"
 });
 formatter.background({
@@ -752,10 +772,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 131059,
+  "duration": 90004,
   "status": "passed"
 });
 formatter.scenario({
@@ -821,7 +841,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 185930,
+  "duration": 210405,
   "status": "passed"
 });
 formatter.match({
@@ -834,7 +854,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 157902,
+  "duration": 180799,
   "status": "passed"
 });
 formatter.match({
@@ -847,14 +867,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 198563,
+  "duration": 225801,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1652453,
+  "duration": 1654822,
   "status": "passed"
 });
 formatter.match({
@@ -867,7 +887,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 145348399,
+  "duration": 244865493,
   "status": "passed"
 });
 formatter.match({
@@ -880,7 +900,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 246826251,
+  "duration": 327618829,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 69083,
   "status": "passed"
 });
 formatter.background({
@@ -896,10 +920,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 97505,
+  "duration": 3988627,
   "status": "passed"
 });
 formatter.scenario({
@@ -965,7 +989,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 158298,
+  "duration": 156324,
   "status": "passed"
 });
 formatter.match({
@@ -978,7 +1002,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 173694,
+  "duration": 143296,
   "status": "passed"
 });
 formatter.match({
@@ -991,14 +1015,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 200142,
+  "duration": 333175,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1853779,
+  "duration": 1284539,
   "status": "passed"
 });
 formatter.match({
@@ -1011,7 +1035,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 191917900,
+  "duration": 276276714,
   "status": "passed"
 });
 formatter.match({
@@ -1024,7 +1048,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 154348467,
+  "duration": 171193149,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 76583,
   "status": "passed"
 });
 formatter.background({
@@ -1040,10 +1068,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 136981,
+  "duration": 116453,
   "status": "passed"
 });
 formatter.scenario({
@@ -1109,7 +1137,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 528580,
+  "duration": 189089,
   "status": "passed"
 });
 formatter.match({
@@ -1122,7 +1150,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 160666,
+  "duration": 146849,
   "status": "passed"
 });
 formatter.match({
@@ -1135,14 +1163,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 173693,
+  "duration": 178430,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1665086,
+  "duration": 1046501,
   "status": "passed"
 });
 formatter.match({
@@ -1155,7 +1183,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 162683369,
+  "duration": 207224609,
   "status": "passed"
 });
 formatter.match({
@@ -1168,7 +1196,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 166372770,
+  "duration": 212405796,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 80530,
   "status": "passed"
 });
 formatter.background({
@@ -1184,10 +1216,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 91584,
+  "duration": 93163,
   "status": "passed"
 });
 formatter.scenario({
@@ -1253,7 +1285,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 211984,
+  "duration": 1166508,
   "status": "passed"
 });
 formatter.match({
@@ -1266,7 +1298,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 157508,
+  "duration": 174088,
   "status": "passed"
 });
 formatter.match({
@@ -1279,14 +1311,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 227380,
+  "duration": 180010,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1315726,
+  "duration": 18513320,
   "status": "passed"
 });
 formatter.match({
@@ -1299,7 +1331,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 200454129,
+  "duration": 265683405,
   "status": "passed"
 });
 formatter.match({
@@ -1312,7 +1344,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 222499342,
+  "duration": 244295858,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 69872,
   "status": "passed"
 });
 formatter.background({
@@ -1328,10 +1364,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 93952,
+  "duration": 78951,
   "status": "passed"
 });
 formatter.scenario({
@@ -1397,7 +1433,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 165404,
+  "duration": 1616531,
   "status": "passed"
 });
 formatter.match({
@@ -1410,7 +1446,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 161061,
+  "duration": 144086,
   "status": "passed"
 });
 formatter.match({
@@ -1423,14 +1459,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 2085502,
+  "duration": 232117,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 1819831,
+  "duration": 1622452,
   "status": "passed"
 });
 formatter.match({
@@ -1443,7 +1479,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 188875506,
+  "duration": 434740919,
   "status": "passed"
 });
 formatter.match({
@@ -1456,7 +1492,11 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 222996736,
+  "duration": 166744236,
+  "status": "passed"
+});
+formatter.before({
+  "duration": 73030,
   "status": "passed"
 });
 formatter.background({
@@ -1472,10 +1512,10 @@ formatter.step({
   "keyword": "Given "
 });
 formatter.match({
-  "location": "Steps.i_am_coonected_to_API()"
+  "location": "Steps.the_add_product_service_is_up_and_running()"
 });
 formatter.result({
-  "duration": 434233,
+  "duration": 89610,
   "status": "passed"
 });
 formatter.scenario({
@@ -1541,7 +1581,7 @@ formatter.match({
   "location": "Steps.i_enter_product_name_as(String)"
 });
 formatter.result({
-  "duration": 163824,
+  "duration": 150403,
   "status": "passed"
 });
 formatter.match({
@@ -1554,7 +1594,7 @@ formatter.match({
   "location": "Steps.i_enter_category_as(String)"
 });
 formatter.result({
-  "duration": 151192,
+  "duration": 140138,
   "status": "passed"
 });
 formatter.match({
@@ -1567,14 +1607,14 @@ formatter.match({
   "location": "Steps.i_enter_price_as(String)"
 });
 formatter.result({
-  "duration": 227775,
+  "duration": 232117,
   "status": "passed"
 });
 formatter.match({
   "location": "Steps.i_send_post_request()"
 });
 formatter.result({
-  "duration": 2164454,
+  "duration": 1371781,
   "status": "passed"
 });
 formatter.match({
@@ -1587,7 +1627,7 @@ formatter.match({
   "location": "Steps.i_verify_the_status_as_in_step(String)"
 });
 formatter.result({
-  "duration": 225273301,
+  "duration": 244116638,
   "status": "passed"
 });
 formatter.match({
@@ -1600,7 +1640,7 @@ formatter.match({
   "location": "Steps.i_verify_the_newly_added_product_using_search_service(String)"
 });
 formatter.result({
-  "duration": 153112088,
+  "duration": 222020501,
   "status": "passed"
 });
 formatter.uri("CleanProduct.feature");
@@ -1610,6 +1650,10 @@ formatter.feature({
   "description": "",
   "id": "clean-products",
   "keyword": "Feature"
+});
+formatter.before({
+  "duration": 69872,
+  "status": "passed"
 });
 formatter.scenario({
   "line": 3,
@@ -1628,7 +1672,7 @@ formatter.match({
   "location": "Steps.i_clean_the_data()"
 });
 formatter.result({
-  "duration": 280922611,
+  "duration": 705881053,
   "status": "passed"
 });
 });

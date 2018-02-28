@@ -16,18 +16,19 @@ public class Steps {
 	private String category;
 	private double unitPrice;
 	private RequestSpecification httpRequest;
+	private String addProductPath;
 
 	@Given("^The add product service is up and running$")
-	public void i_am_coonected_to_API() throws Throwable {
-		RestAssured.baseURI = "http://localhost:8080/SampleWebProject/restservices/productcatalog/insert";
+	public void the_add_product_service_is_up_and_running() throws Throwable {
+		addProductPath="/insert";
 	}
-	
+
 	@Given("^I clean the data$")
-	
+
 	public void i_clean_the_data() throws Throwable {
-		RestAssured.baseURI = "http://localhost:8080/SampleWebProject/restservices/productcatalog/search/clean";
-		RequestSpecification httpRequest = RestAssured.given();
-		Response response = httpRequest.request(Method.GET);
+
+		httpRequest = RestAssured.given();
+		Response response = httpRequest.request(Method.GET,"/search/clean");
 		JsonPath jsonPathEvaluator = response.jsonPath();
 		Assert.assertEquals(jsonPathEvaluator.get("status").toString(),"SUCCESS".toString());	
 	}
@@ -56,7 +57,7 @@ public class Steps {
 
 	@Then("^I verify the response status as \"([^\"]*)\"$")
 	public void i_verify_the_status_as_in_step(String expected) throws Throwable {
-		Response response = httpRequest.request(Method.POST);
+		Response response = httpRequest.request(Method.POST,addProductPath);
 
 		JsonPath jsonPathEvaluator = response.jsonPath();		
 		Assert.assertEquals(jsonPathEvaluator.get("status"),expected, "Status is verified successfully");
@@ -64,9 +65,9 @@ public class Steps {
 
 	@Then("^I verify the newly added product \"([^\"]*)\" using search service$")
 	public void i_verify_the_newly_added_product_using_search_service(String productName) throws Throwable {
-		RestAssured.baseURI = "http://localhost:8080/SampleWebProject/restservices/productcatalog/search";
+		//RestAssured.baseURI = "http://localhost:8080/SampleWebProject/restservices/productcatalog/search";
 		httpRequest = RestAssured.given().queryParam("name", productName);
-		Response response = httpRequest.request(Method.GET);
+		Response response = httpRequest.request(Method.GET,"/search");
 		JsonPath jsonPathEvaluator = response.jsonPath();
 		Assert.assertEquals(jsonPathEvaluator.get("name").toString(),"["+productName+"]".toString(),"Product name is verified successfully");
 	}
