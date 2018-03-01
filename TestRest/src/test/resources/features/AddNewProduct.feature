@@ -19,7 +19,7 @@ Feature: Add new product feature
       | 17Monitor          | Electronics      | 35.69D     | SUCCESS |
       | Hammer             | Hardware         | 40.79D     | SUCCESS |
       | Screwdriver        | Hardware         | 51.89D     | SUCCESS |
-      | English Dictionary | Books            | 19.99D     | SUCCESS |
+      | English Dictionary | Books            | 19.94D     | SUCCESS |
       | An Alaskan Odysse  | Books            | 07.39D     | SUCCESS |
       | LCD Projector      | Electronics      | 25.29D     | SUCCESS |
-      | Smart Thermostat   | Electronics      | 82.69D     | SUCCESS |
+      | Smart Thermostat   | Electronics      | 82.68D     | SUCCESS |
